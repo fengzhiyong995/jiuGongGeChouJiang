@@ -10,5 +10,66 @@
     background-position: center center;background-size: auto 170px;background-repeat: no-repeat;
 }
 .ChouJiang .selection{
-    width:100%;height:100%;background-color: rgba(189, 58, 87, 0.7);
+    width:100%;height:100%;background-color: rgba(219, 206, 22, 0.4);
 }
+.ChouJiang tr:nth-child(2) td:nth-child(2){
+    cursor: pointer;
+}
+.ChouJiang tr:nth-child(2) td:nth-child(2):hover{
+    background-size:  auto 175px;transition: 0.3s;
+}
+@media screen and (max-width : 768px){
+    .ChouJiang{
+        padding: 3px;
+    }
+    .ChouJiang tr{
+        height: 70px;
+    }
+    .ChouJiang td{
+        width: 75px;height: 70px;
+        background-size: auto 70px;
+    }
+    .ChouJiang tr:nth-child(2) td:nth-child(2){
+        background-size:  auto 62px;
+    }
+    .ChouJiang tr:nth-child(2) td:nth-child(2):hover{
+        background-size:  auto 65px;
+    }
+}
+@media screen and (min-width : 769px) and (max-width : 992px){
+    .ChouJiang{
+        padding: 4px;
+    }
+    .ChouJiang tr{
+        height: 120px;
+    }
+    .ChouJiang td{
+        width: 125px;height: 120px;
+        background-size: auto 120px;
+    }
+    .ChouJiang tr:nth-child(2) td:nth-child(2){
+        background-size:  auto 112px;
+    }
+    .ChouJiang tr:nth-child(2) td:nth-child(2):hover{
+        background-size:  auto 115px;
+    }
+}
+@media screen and (min-width : 993px) and (max-width : 1200px){
+    .ChouJiang{
+        padding: 5px;
+    }
+    .ChouJiang tr{
+        height: 140px;
+    }
+    .ChouJiang td{
+        width: 150px;height: 140px;
+        background-size: auto 140px;
+    }
+    .ChouJiang tr:nth-child(2) td:nth-child(2){
+        background-size:  auto 132px;
+    }
+    .ChouJiang tr:nth-child(2) td:nth-child(2):hover{
+        background-size:  auto 135px;
+    }
+}
+
